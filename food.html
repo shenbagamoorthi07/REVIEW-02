@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="food.css">
+</head>
+<body>
+    <div>
+      <div class="background-img">
+        <h1 id='internal'>FoodHub</h1>
+        <form id="leftcon" >
+          <table>
+            <tr>
+                <td id='cb'><b>Veg or Non-veg</b></td>
+                <td><select id='vn'>
+               <option type="">Select</option>
+               <option type="">Veg</option>
+               <option type="">Non-veg</option>
+               <option type="">Both</option>
+              </select ></td>
+            
+             </tr>
+            <tr>
+            
+            <td><b>Veg Menu</b></td>
+          <p> <td><select id='vm'>
+              <option type="">Select</option>
+              <option type="">Idly Sambar</option>
+              <option type="">Dosa</option>
+              <option type="">Idiyappam</option>
+              <option type="">Uttapam</option>
+              <option type="">Parrotta</option>
+             </select ></td></p>
+         
+          </tr>
+          
+          <tr>
+          <td><b>Popular restaurents for veg</b></td>
+           <p> <td><select id='vr'>
+              <option type="">Select</option>
+              <option type="">Saravana Bhavan,Adayar,Chennai</option>
+              <option type="">Adaiyar Anandha Bhavan,Chennai</option>
+              <option type="">Annalakshmi Restaurent,Chennai</option>
+              <option type="">Royal Vega,Chennai</option>
+             </select ></td></p>
+            
+         </tr>
+      
+          <tr>
+          <td><b>Number of Items</b></td>
+              <td><input type="number" placeholder='Enter the Quantity' id='jer' /></td>
+        
+         
+          </tr><br></br>
+            
+          </table>
+          <button onClick={checkdata} id='sum'>Order</button>
+        </form>
+      </div>
+</body>
+</html>

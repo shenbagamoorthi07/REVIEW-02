@@ -1,0 +1,87 @@
+#internal {
+  
+    text-align: absolute;
+    padding-top: 50px;
+    padding-left: 700px;
+    color:rgb(13, 0, 255);
+    font-style:italic;
+    font-family:'Times New Roman', Times, serif;
+ 
+    
+  }
+ 
+  #leftcon{
+    position: absolute;
+    left:10%;
+    padding-top:100px ;
+  }
+  #dha{
+    position: absolute;
+    left:48%;
+    padding-top:8px ;
+  }
+
+  #jer{
+    height:50px;
+    width:90%;
+    margin-left: 12px;
+  }
+  #jer1{
+    height:50px;
+    width:70%;
+    margin-left:12px;
+  }
+
+  #rightcon{
+    position: absolute;
+    left:60%;
+    padding-top:195px ;
+  }
+
+  #vr{
+    height:50px;
+    width:90%;
+    margin-left: 12px;
+  }
+
+  #vr1{
+    height:50px;
+    width:70%;
+    margin-left: 12px;
+  }
+  #vm{
+    height:50px;
+    width:203%;
+    margin-left:12px;
+  }
+  #vm1{
+    height:50px;
+    width:143%;
+    margin-left: 10px;
+  }
+
+  #sum
+  {
+    
+      margin-left: 575px;
+      height:50px;
+      width:100px;
+      border-radius: 12px;
+      background-color: rgb(255, 0, 0);
+    
+  }
+  #vn{
+    margin-left: 12px;
+  }
+  #mnh{
+    background-color: rgb(164, 164, 177);
+    height: 150px;;
+  }
+ 
+  .background-img {  
+    min-height: 700px;  
+    background-size: cover;      
+    background-image: url(  
+      "https://images.pexels.com/photos/3756523/pexels-photo-3756523.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");  
+background-size: cover;
+}
